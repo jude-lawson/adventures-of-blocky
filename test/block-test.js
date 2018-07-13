@@ -1,3 +1,8 @@
+const chai = require('chai')
+const assert = chai.assert;
+
+const Block = require('../lib/Block.js')
+
 describe('Block', function () {
 
   it('should be a function', function () {
